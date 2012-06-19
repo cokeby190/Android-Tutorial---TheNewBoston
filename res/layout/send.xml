@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":DDDD HELLO:" />
+
+    <RadioGroup
+        android:id="@+id/rg_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/r_send1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moomoo!" />
+
+        <RadioButton
+            android:id="@+id/r_send2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teh Peng!" />
+
+        <RadioButton
+            android:id="@+id/r_send3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lala~!" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/b_returnData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_btn"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
