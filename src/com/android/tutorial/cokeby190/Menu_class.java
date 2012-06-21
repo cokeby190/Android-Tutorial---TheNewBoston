@@ -14,7 +14,8 @@ import android.widget.ListView;
 
 public class Menu_class extends ListActivity{
 
-	String list[] = {"Android_TutorialActivity","Splash_class","TextPlay", "TextPlay_2", "Email_class", "Camera_class", "Data"};
+	String list[] = {"Android_TutorialActivity","Splash_class","TextPlay", "TextPlay_2", 
+							"Email_class", "Camera_class", "Data", "Graphics", "Graphics_surface"};
 	
 	
 	@Override
@@ -23,8 +24,8 @@ public class Menu_class extends ListActivity{
 		
 		//creating full_screen request
 			//get rid of title and setup full screen.	
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		//requestWindowFeature(Window.FEATURE_NO_TITLE);
+		//getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		
 		//trying to set up ListView in java and not in XML. 
 		//ArrayAdapter constructor : ArrayAdapter <String> (Context, int, String)
@@ -51,6 +52,7 @@ public class Menu_class extends ListActivity{
 		
 	}
 
+	//creating menu
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		super.onCreateOptionsMenu(menu);
@@ -60,6 +62,7 @@ public class Menu_class extends ListActivity{
 		return true;
 	}
 
+	//determining which intent or action to call when menu option is clicked
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 
