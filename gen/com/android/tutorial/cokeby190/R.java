@@ -27,9 +27,10 @@ public final class R {
         public static final int pikachu_splash=0x7f020009;
     }
     public static final class id {
-        public static final int aboutUs=0x7f090033;
+        public static final int aboutUs=0x7f090034;
         public static final int analogClock1=0x7f09000d;
         public static final int b_add=0x7f090013;
+        public static final int b_add_tab=0x7f09002f;
         public static final int b_crowd_test=0x7f090026;
         public static final int b_dir_test=0x7f090025;
         public static final int b_nearby_test=0x7f090027;
@@ -45,7 +46,7 @@ public final class R {
         public static final int b_stop=0x7f09002c;
         public static final int b_sub=0x7f090014;
         public static final int button1=0x7f09000c;
-        public static final int button_results=0x7f090030;
+        public static final int button_results=0x7f090031;
         public static final int content=0x7f090022;
         public static final int display=0x7f090012;
         public static final int editText1=0x7f090001;
@@ -54,14 +55,14 @@ public final class R {
         public static final int editText4=0x7f090007;
         public static final int editText5=0x7f090009;
         public static final int editText6=0x7f09000b;
-        public static final int edit_text=0x7f09002f;
+        public static final int edit_text=0x7f090030;
         public static final int et_send=0x7f09000e;
-        public static final int exit=0x7f090035;
+        public static final int exit=0x7f090036;
         public static final int handle=0x7f090023;
         public static final int ib_take_pic=0x7f090017;
         public static final int iv_photo_view=0x7f090016;
         public static final int longsound=0x7f090029;
-        public static final int preferences=0x7f090034;
+        public static final int preferences=0x7f090035;
         public static final int r_send1=0x7f09001a;
         public static final int r_send2=0x7f09001b;
         public static final int r_send3=0x7f09001c;
@@ -78,8 +79,8 @@ public final class R {
         public static final int textView4=0x7f090006;
         public static final int textView5=0x7f090008;
         public static final int textView6=0x7f09000a;
-        public static final int text_results=0x7f090032;
-        public static final int toggle_button=0x7f090031;
+        public static final int text_results=0x7f090033;
+        public static final int toggle_button=0x7f090032;
         public static final int tv_got=0x7f090011;
     }
     public static final class layout {

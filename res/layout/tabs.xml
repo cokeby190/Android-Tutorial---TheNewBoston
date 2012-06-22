@@ -81,6 +81,12 @@
                         android:layout_height="wrap_content"
                         android:text="TextView" />
                     
+                    <Button
+                        android:id="@+id/b_add_tab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add Tab" />
+                    
                 </LinearLayout>
             </FrameLayout>
             <!-- FRAME LAYOUT END -->
